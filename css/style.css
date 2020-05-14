@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: Helvetica, sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -46,4 +47,81 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+a{
+	text-decoration: none;
+	/* remove underline */
+}
+
+.container {
+	width: 1100px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+/* HEADER */
+.page-header{
+	height: 50px;
+	width: 100%;
+	background: #0c0c0c;
+	color: rgb(191, 191, 191);
+}
+
+.page-header a{
+	color: inherit;
+}
+
+.header-left{
+	float: left;
+	display: flex;
+	height: 100%;
+}
+
+.header-right{
+	float: right;
+	display: flex;
+	height: 100%;
+	align-items: center;
+}
+
+.page-nav a:hover{
+	color: white;
+}
+
+.page-nav ul{
+	display: flex;
+	align-items: center;
+	height: 100%;
+	margin-left: 15px;
+}
+
+.page-nav ul li{
+	margin: 0 0 0 5px;
+	text-transform: capitalize;
+}
+
+.page-nav ul li:last-child::after{
+	content: '';
+}
+
+.page-nav ul li::after{
+	content: '|';
+	margin-left: 5px;
+}
+
+.page-logo{
+	position: relative;
+	width: 60px;
+}
+
+.page-logo img{
+	position: absolute;
+	width: 100%;
+}
+.search-switcher-label{
+	margin: 0 15px;
+}
+.page-search-field{
+	width: 0;
 }
