@@ -20,6 +20,7 @@ You're sections headers will be used to reference location of destination.
 ## Description
 
 Generally following the project in the Vertex Academy course. (https://www.udemy.com/course/result-oriented-web-developer-course/)
+The final product should look like (The static CNN page you can find here: https://vertex-academy.com/en/cnn-clone/)
 
 #### Technologies
 
