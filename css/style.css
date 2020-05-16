@@ -249,7 +249,7 @@ label:hover{
 	position: absolute;
 	top: 50px;
 	right: 0;
-	display: block;
+	display: none;
 	/* change back to display none to bring back pop menu */
 }
 
@@ -335,5 +335,61 @@ label:hover{
 }
 
 .expanded-bottom-block .international-block .flex-block{
+	align-items: center;
+}
+
+/* FOOTER */
+.page-footer{
+	background: #0c0c0c;
+	color: black;
+	margin-top: 300px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.page-footer a{
+	color: #bfbfbf;
+}
+
+.footer-top-block{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.footer-weather{
+	display: flex;
+	align-items: center;
+	color: white;
+}
+
+.footer-weather img{
+	margin: 0 10px;
+}
+.footer-top-block .search{
+	background: #262626;
+	color: #bfbfbf;
+	border: 0;
+	width: 320px;
+	height: 35px;
+	font-size: 16px;
+	font-weight: 400;
+	outline: none;
+	padding: 6px 45px 6px 12px;
+}
+
+.footer-top-block .search-block label{
+	margin-left: -40px;
+	display: flex;
+	color: #bfbfbf;
+	font-size: 22px;
+	font-weight: 300;
+	/* margin: 8px 0 8px -45px; */
+}
+
+.footer-top-block .search-block{
+	display: flex;
 	align-items: center;
 }
