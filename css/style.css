@@ -338,10 +338,121 @@ label:hover{
 	align-items: center;
 }
 /* MAIN */
+main{
+	padding-top: 30px;
+}
+
 article img{
 	width: 100%;
 }
 
+article{
+	/* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+	font-family: Helvetica, Arial, sans-serif;
+	color: rgb(38, 38, 38);
+	margin-bottom: 50px;
+}
+
+article h3{
+	font-size: 16px;
+	line-height: calc(20 / 16);
+	/* the line-height is listed as 20px
+	but it should be 20/16 to get real
+	line-height = 1.25*/
+	color: inherit;
+	margin: 7px 0;
+}
+
+.middle-size{
+	font-size: 20px;
+	line-height: calc(24 / 20);
+	font-weight: 300;
+	font-family: inherit;
+	padding-right: 0;
+}
+
+ .play::after{
+	 content: '\F144';
+	 font-family: 'Font Awesome 5 Free';
+	 color: rgb(166, 166, 166);
+	 margin-left: 7px;
+ }
+
+ .semi-grey{
+	 font-size: 21px;
+	 font-weight: 300;
+	 text-align: center;
+	 line-height: calc(25.2 / 21);
+	 background: rgb(230, 230, 230);
+	 padding: 10px 10px 15px 10px;
+	 margin: -23px 30px;
+	 position: relative;
+	 z-index: 9000;
+ }
+
+.last-news a{
+	color: inherit;
+	font-family: inherit;
+	font-size: 15px;
+	line-height: calc(20 / 15);
+	font-weight: 300;
+}
+
+.last-news li{
+	color: inherit;
+	font-family: inherit;
+	font-size: 15px;
+	line-height: calc(20 / 15);
+	font-weight: 300;
+	padding: 7px 0;
+	border-top: 1px solid rgb(217, 217, 217);
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.category {
+	color: #404040;
+	font-weight: bold;
+	padding: 7px;
+	background: #f2f2f2;
+}
+
+h1{
+	color: rgb(38, 38, 38);
+	font-size: 55.44px;
+	font-weight: 500;
+	line-height: calc(61.6 / 55.44);
+	/* line-height in original page was 
+	   line-height: 1.1111111111;
+	   divide general line-height/font-size
+	*/
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.image-label{
+	background: rgb(204, 0, 0);
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	height: 40px;
+	line-height: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	width: auto;
+	padding: 0 10px;
+}
+
+.label-block{
+	position: absolute;
+	bottom: 3px;
+	left: 0;
+}
+.image-block{
+	position: relative;
+}
 
 
 /* FOOTER */
