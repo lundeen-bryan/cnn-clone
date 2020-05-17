@@ -337,6 +337,12 @@ label:hover{
 .expanded-bottom-block .international-block .flex-block{
 	align-items: center;
 }
+/* MAIN */
+article img{
+	width: 100%;
+}
+
+
 
 /* FOOTER */
 .page-footer{
