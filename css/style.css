@@ -482,6 +482,10 @@ h1{
 	line-height: calc(20 / 15);
 }
 
+.with-capacity{
+	background-color: rgba(250, 250, 250, 0.85);
+}
+
 /* FOOTER */
 .page-footer{
 	background: #0c0c0c;
