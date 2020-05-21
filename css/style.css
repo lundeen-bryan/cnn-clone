@@ -486,6 +486,53 @@ h1{
 	background-color: rgba(250, 250, 250, 0.85);
 }
 
+.section-heading{
+	color: #262626;
+	font-size: 24px;
+	line-height: calc(30 / 24);
+	display: flex;
+	white-space: nowrap;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.section-heading::after{
+	 content: '.';
+	 font-size: 0;
+	 height: 9px;
+	 border-top: 4px solid #d9d9d9;
+	 border-bottom: 4px solid #d9d9d9;
+	 width: 100%;
+	 margin-left: 5px;
+}
+
+.dark-section{
+	background: #1a1a1a;	
+}
+
+.dark-section .section-heading::after{
+	border-color: #cc0000;
+}
+
+.dark-section .image-label{
+	background: #ffffff;
+	color: #cc0000;	
+}
+
+.dark-section .with-opacity{
+	background: rgb(38, 38, 38);
+	opacity: 0.85;	
+}
+
+.dark-section h3{
+	color: #ffffff	
+}
+
+.dark-section .wrapper{
+	display: block;
+	width: 100%;
+}
+
 /* FOOTER */
 .page-footer{
 	background: #0c0c0c;
