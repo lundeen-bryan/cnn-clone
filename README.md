@@ -4,10 +4,14 @@
 
 > A clone of a made up CNN news page to practice using HTML/CSS/JS and Bootstrap.
 
+### Live Demo
+
+[View this project on Netlify](https://lundeen-bryan-cnn-clone.netlify.app/)
+
 ---
 
 ### Table of Contents
-You're sections headers will be used to reference location of destination.
+Sections headers used to reference location of readme text.
 
 - [Description](#description)
 - [How To Use](#how-to-use)
